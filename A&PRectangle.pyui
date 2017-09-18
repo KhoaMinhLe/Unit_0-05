@@ -1,0 +1,124 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{6, 6}, {534, 70}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "question_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "BB70B85F-5660-4621-991B-71D394C2B6E4",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "What is the area and perimeter of a rectangle if the length is 5 cm and width is 3 cm?",
+          "font_size" : 20,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{49, 129}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "area_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "4865B707-9713-439B-A8D9-25EDA4455F01",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Area:",
+          "font_size" : 20,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{49, 213}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "perimeter_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "9CB810CC-0622-4195-A79C-FFCF7DDE7549",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Perimeter:",
+          "font_size" : 20,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{246, 129}, {218, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "area_answer_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "5E7AEACA-5111-4B5B-8A1A-96954DA5F126",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 20,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{229, 213}, {269, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "perimeter_answer_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "AA9489F5-5571-4D61-9493-DE073221A82C",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 20,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{199, 336}, {163, 79}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "answer_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Answer",
+          "uuid" : "64F9A7D7-E9CA-4C3D-A00C-2F3BACD69FDD",
+          "class" : "Button",
+          "name" : "answer_area_button",
+          "font_size" : 18
+        }
+      }
+    ],
+    "attributes" : {
+      "flex" : "",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
+    }
+  }
+]
